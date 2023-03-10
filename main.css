@@ -1,0 +1,201 @@
+@font-face {
+  font-family: "ColfaxAI";
+  src: url(https://cdn.openai.com/API/fonts/ColfaxAIRegular.woff2)
+      format("woff2"),
+    url(https://cdn.openai.com/API/fonts/ColfaxAIRegular.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ColfaxAI";
+  src: url(https://cdn.openai.com/API/fonts/ColfaxAIBold.woff2) format("woff2"),
+    url(https://cdn.openai.com/API/fonts/ColfaxAIBold.woff) format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+body,
+input {
+  font-size: 16px;
+  line-height: 24px;
+  color: #353740;
+  font-family: "ColfaxAI", Helvetica, sans-serif;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 60px;
+}
+.icon {
+  width: 34px;
+}
+h3 {
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: bold;
+  color: #202123;
+  margin: 16px 0 40px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+}
+input[type="text"] {
+  padding: 12px 16px;
+  border: 1px solid #10a37f;
+  border-radius: 4px;
+  margin-bottom: 24px;
+}
+::placeholder {
+  color: #8e8ea0;
+  opacity: 1;
+}
+input[type="submit"] {
+  padding: 12px 0;
+  color: #fff;
+  background-color: #10a37f;
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+}
+.result {
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+.list_results {
+  padding: 10px 20px;
+  justify-content: left;
+
+}
+
+
+/* * {
+	box-sizing: border-box;
+	margin: 0;
+  padding: 0;
+}
+
+body {
+	font-family: "Open Sans", sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+	color: #4a4a4a;
+	background-color:  #fff;
+}
+
+header {
+	background-color: #fff;
+	padding: 20px;
+	text-align: center;
+	
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	justify-content: right;
+	margin-bottom: 10px;
+}
+
+nav ul li {
+	margin: 0 10px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #4a4a4a;
+	font-weight: 600;
+	transition: color 0.2s ease-in-out;
+}
+
+nav ul li a:hover {
+	color: #8f805a;
+}
+
+h1 {
+	font-size: 36px;
+	font-weight: 600;
+	margin-bottom: 20px;
+	color: #2d2d2d;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+p {
+	font-size: 20px;
+	margin-bottom: 20px;
+	color: #5e5e5e;
+}
+
+button {
+	background-color: #8f805a;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 20px;
+	transition: background-color 0.2s ease-in-out;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+ 
+}
+
+button:hover {
+	background-color: #b5a87d;
+}
+
+section {
+	padding: 20px;
+	background-color: #fff;
+}
+
+section h2 {
+	font-size: 36px;
+	font-weight: 600;
+	margin-bottom: 20px;
+	color: #2d2d2d;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+section p {
+	font-size: 20px;
+	margin-bottom: 20px;
+	color: #5e5e5e;
+}
+
+section ul {
+	list-style: none;
+	margin-bottom: 20px;
+}
+
+section li {
+	margin-bottom: 10px;
+	color: #5e5e5e;
+	font-weight: 600;
+}
+
+footer {
+	background-color: #fff;
+	padding: 10px;
+	text-align: center;
+	box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1);
+	font-size: 16px;
+	color: #5e5e5e;
+}
+
+.brand {
+  text-align: left;
+}
+.product {
+  text-align: left;
+  padding-left: 20px;
+  padding-top: 0;
+}
+
+
+
+.action{
+  text-align: right;
+} */
